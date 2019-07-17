@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		0D28151B22DF72F100F9C800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28151922DF72F100F9C800 /* Main.storyboard */; };
 		0D28151D22DF72F200F9C800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D28151C22DF72F200F9C800 /* Assets.xcassets */; };
 		0D28152022DF72F200F9C800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28151E22DF72F200F9C800 /* LaunchScreen.storyboard */; };
+		0DBA019F22DF8E82000A6013 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DBA019E22DF8E82000A6013 /* GoogleService-Info.plist */; };
 		57034C30DB16CE82764E435D /* Pods_RxSwift_with_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646238666A238D9880C8DD52 /* Pods_RxSwift_with_Firebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		0D28151C22DF72F200F9C800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D28151F22DF72F200F9C800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D28152122DF72F200F9C800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBA019E22DF8E82000A6013 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5720A81758B2FD5F4A3E35DD /* Pods-RxSwift-with-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-with-Firebase.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-with-Firebase/Pods-RxSwift-with-Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		646238666A238D9880C8DD52 /* Pods_RxSwift_with_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_with_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2EE0AD0B23B7AB2DD78073 /* Pods-RxSwift-with-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-with-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-with-Firebase/Pods-RxSwift-with-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		0D28151422DF72F100F9C800 /* RxSwift-with-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				0DBA019E22DF8E82000A6013 /* GoogleService-Info.plist */,
 				0D28151522DF72F100F9C800 /* AppDelegate.swift */,
 				0D28151722DF72F100F9C800 /* ViewController.swift */,
 				0D28151922DF72F100F9C800 /* Main.storyboard */,
@@ -77,7 +80,6 @@
 				AA2EE0AD0B23B7AB2DD78073 /* Pods-RxSwift-with-Firebase.debug.xcconfig */,
 				5720A81758B2FD5F4A3E35DD /* Pods-RxSwift-with-Firebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D28152022DF72F200F9C800 /* LaunchScreen.storyboard in Resources */,
+				0DBA019F22DF8E82000A6013 /* GoogleService-Info.plist in Resources */,
 				0D28151D22DF72F200F9C800 /* Assets.xcassets in Resources */,
 				0D28151B22DF72F100F9C800 /* Main.storyboard in Resources */,
 			);
@@ -353,7 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4ZU2Z6746Y;
 				INFOPLIST_FILE = "RxSwift-with-Firebase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -373,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4ZU2Z6746Y;
 				INFOPLIST_FILE = "RxSwift-with-Firebase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (

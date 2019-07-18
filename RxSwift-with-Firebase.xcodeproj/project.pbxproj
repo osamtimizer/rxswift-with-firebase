@@ -63,15 +63,39 @@
 		0D28151422DF72F100F9C800 /* RxSwift-with-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				0DBA01A222E0DB0F000A6013 /* StoryBoard */,
+				0DBA01A122E0DB04000A6013 /* ViewModel */,
+				0DBA01A022E0DAEC000A6013 /* ViewController */,
 				0DBA019E22DF8E82000A6013 /* GoogleService-Info.plist */,
 				0D28151522DF72F100F9C800 /* AppDelegate.swift */,
-				0D28151722DF72F100F9C800 /* ViewController.swift */,
-				0D28151922DF72F100F9C800 /* Main.storyboard */,
 				0D28151C22DF72F200F9C800 /* Assets.xcassets */,
-				0D28151E22DF72F200F9C800 /* LaunchScreen.storyboard */,
 				0D28152122DF72F200F9C800 /* Info.plist */,
 			);
 			path = "RxSwift-with-Firebase";
+			sourceTree = "<group>";
+		};
+		0DBA01A022E0DAEC000A6013 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D28151722DF72F100F9C800 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DBA01A122E0DB04000A6013 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0DBA01A222E0DB0F000A6013 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0D28151922DF72F100F9C800 /* Main.storyboard */,
+				0D28151E22DF72F200F9C800 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 		AFE5C8F716847720B640230C /* Pods */ = {
